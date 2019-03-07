@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+
+        <title>To-do List</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-light bg-light">
+            <h1 class="navbar-brand">Andrew Cheung</h1>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" required>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+
+        <!-- Header -->
+        <header class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="txt-center">To-do List</h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- Enter to-do list items form -->
+        <section class="container">
+            <div class="row">
+                <form class="form-inline col-10">
+                    <input id="newListItem" class="form-control mr-sm-2" type="text" placeholder="Add to-do item">
+                    <button id="addItemButton" class="btn btn-light">Submit</button>
+                </form>
+                <button id="clearButton" class="btn btn-light col-2">Clear</button>
+            </div>
+            
+        </section>
+
+        <!-- The List -->
+        <section class="container">
+            <div>
+                <ul id="toDoList">
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2019 Andrew Cheung</p>
+        </footer>
+
+        <script src="script/main.js"></script>
+    </body>
+</html>
+
